@@ -2,5 +2,6 @@
 {
     public interface IProcessService
     {
+        Task ExecuteProcess();
     }
 }

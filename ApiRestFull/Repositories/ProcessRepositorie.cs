@@ -11,5 +11,17 @@ namespace ApiRestFull.Repositories
         {
             _logger = logger;
         }
+
+        public async Task GetDados()
+        {
+            try
+            {
+
+            }
+            catch (Exception e)
+            {
+                _logger.LogError
+            }
+        }
     }
 }
